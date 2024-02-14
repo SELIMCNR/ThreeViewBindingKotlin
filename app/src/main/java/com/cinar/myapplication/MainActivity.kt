@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         //FindView de çok fazla işlem yapıyor verimsiz
         //View Binding az işlem yapıyor verimli bunu kullan
         binding.textView.setText("Boş metin")
+        
         binding.editText.setText("Boş input")
 
         binding.button.setText("Yazdır")
